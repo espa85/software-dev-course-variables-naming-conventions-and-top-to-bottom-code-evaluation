@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let purchaser = "Alice";
+let item = "Monster Energy Drinks"
+let quantity = 5;
+let total = 20;
+let costPer = total / quantity;
+let statement = purchaser + " bought " + quantity + " " + item + " at $" + costPer + " each for a total of $" + total + ".";
 
-console.log(d);
+console.log(statement);
